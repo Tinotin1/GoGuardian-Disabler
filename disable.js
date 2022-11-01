@@ -1,5 +1,5 @@
 const extensionsToDisable = ["haldlgldplgnggkjaafhelgiaglafanh", "ihjgnoifhnilgbjicdpingfgjhjeffij", "kmpjlilnemjciohjckjadmgmicoldglf", "ifeifkfohlobcbhmlfkenopaimbmnahb", "jaoebcikabjppaclpgbodmmnfjihdngk", "kbohafcopfpigkjdimdcdgenlhkmhbnc", "gcjpefhffmcgplgklffgbebganmhffje", "lgcbihdlknkcmmnapfocjbkdefkhmolo"]
-for( e in extensions ){
-    chrome.management.setEnabled(extensions[e], false,)
+for( e in extensionsToDisable ){
+    chrome.management.setEnabled(extensionsToDisable[e], false,)
 }
 alert(`Success`)
