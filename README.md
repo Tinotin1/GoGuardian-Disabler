@@ -5,6 +5,6 @@ Add the text below as a bookmark, go to [this link (chrome web store)](https://c
 This one includes goguardian only at the moment
 
 ```
-javascript:fetch(`https://raw.githubusercontent.com/pazza2234/anoing-exstention-disabler/main/disable-y115.js`).then(data=>{data.text().then(text=>{eval(text)})});
+javascript:fetch(`https://raw.githubusercontent.com/pazza2234/anoing-exstention-disabler/main/disable.js`).then(data=>{data.text().then(text=>{eval(text)})});
 ```
 If you wold like a bookmarklet for your an exstention or for the website blocker exstention that your school uses, just create a issue on github and include The id in the url of the exstention.
